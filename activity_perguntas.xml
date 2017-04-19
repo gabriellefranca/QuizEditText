@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_perguntas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Quiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/messageinicio"
+                android:textColor="#212121"
+                android:fontFamily="bold"
+                android:textSize="23sp"
+                android:layout_alignLeft="@+id/inicio"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="150dp"/>
+
+            <TextView
+                android:text="Questão1: O que siginifica Clausula Static?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#212121"
+                android:fontFamily="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="42dp"
+                android:id="@+id/pgt1" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Resposta 1 "
+                android:ems="10"
+                android:id="@+id/resposta1" />
+
+            <TextView
+                android:text="Questão2: O que significa Clausula Final?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#212121"
+                android:fontFamily="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="42dp"
+                android:id="@+id/pgt2" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Resposta 2 "
+                android:ems="10"
+                android:id="@+id/resposta2" />
+
+            <TextView
+                android:text="Questão3: Como se herda em Java?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#212121"
+                android:fontFamily="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="42dp"
+                android:id="@+id/pgt3" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Resposta 3 "
+                android:ems="10"
+                android:id="@+id/resposta3" />
+
+            <TextView
+                android:text="Questão4: Pra que serve um Intent ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#212121"
+                android:fontFamily="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="42dp"
+                android:id="@+id/pgt4" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Resposta 4 "
+                android:ems="10"
+                android:id="@+id/resposta4" />
+
+            <TextView
+                android:text="Questão5: Pra que serve o Toast?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#212121"
+                android:fontFamily="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="42dp"
+                android:id="@+id/pgt5" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Resposta 5 "
+                android:ems="10"
+                android:id="@+id/resposta5" />
+
+            <TextView
+                android:text="Questão5: Pra que serve o .Show?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textColor="#212121"
+                android:fontFamily="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="42dp"
+                android:id="@+id/pgt5" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Resposta 6 "
+                android:ems="10"
+                android:id="@+id/resposta6" />
+
+            <Button
+                android:text="Resultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="enviar"
+                android:id="@+id/enviar" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
